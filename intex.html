@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura | Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1 class="titleText">Encriptador</h1>
+        <img src="./images/aluraoracle.png" alt="Logo alura" />
+    </div>
+    <main class="container">
+        <!-- Encriptador -->
+        <div class="left">
+            <textarea class="leftTex" type="text">Ingrese texto aquí</textarea>
+            <p class="warningText"> <span>&#9888;</span> Solo se aceptan letras minusculas y sin acentos.</p>
+            <div class="containerButtoms">
+                <button class="leftButtom1">Encriptar</button>
+                <button class="leftButtom2">Desencriptar</button>
+                <button class="leftButtom3">Reiniciar</button>
+            </div>
+        </div>
+        <!-- Desencriptador cambiara su clase cuando este funcionando -->
+        <div class="right" id="rightmain">
+            <img class="rightImg" src="./images/Muñeco.png" alt="Muñeco"/>
+            <h2 class="rightText1" >Ningún mensaje fue encontrado</h2>
+            <h3 class="rightText2" >Ingresa el texto que deseas encriptar o desencriptar</h3>
+            <textarea class="rightText" hidden></textarea>
+            <button class="RightButtom" hidden>Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <span>Desarrollado por: beherodev + @aluraLATAM</span>
+    </footer>
+
+    <!-- Enlazar el archivo JavaScript -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
